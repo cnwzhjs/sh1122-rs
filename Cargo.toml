@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "sh1122",
+    "sh1122-rppal",
+    "sh1122-test"
+]
