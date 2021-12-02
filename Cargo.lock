@@ -125,15 +125,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "sh1122-rppal"
-version = "0.1.0"
-dependencies = [
- "rppal",
- "sh1122",
-]
-
-[[package]]
-name = "sh1122-test"
+name = "sh1122-clock"
 version = "0.1.0"
 dependencies = [
  "chrono",
@@ -141,6 +133,14 @@ dependencies = [
  "rppal",
  "sh1122",
  "sh1122-rppal",
+]
+
+[[package]]
+name = "sh1122-rppal"
+version = "0.1.0"
+dependencies = [
+ "rppal",
+ "sh1122",
 ]
 
 [[package]]

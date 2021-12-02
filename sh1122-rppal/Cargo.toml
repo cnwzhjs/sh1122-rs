@@ -1,10 +1,21 @@
 [package]
 name = "sh1122-rppal"
 version = "0.1.0"
+authors = ["Tony Huang <cnwzhjs@gmail.com>"]
 edition = "2021"
-
+description = "A user mode driver for SH1122 (Raspberry PI interface)"
+readme = "../README.md"
+license = "MIT"
+documentation = "https://docs.rs/sh1122-rppal/"
+homepage = "https://github.com/cnwzhjs/sh1122"
+repository = "https://github.com/cnwzhjs/sh1122"
+keywords = ["display", "driver", "sh1122", "raspberrypi"]
+categories = [
+    "embedded",
+    "hardware-support"
+]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sh1122 = { path = "../sh1122" }
+sh1122 = { path = "../sh1122", version = "0.1" }
 rppal = { version = "0.13" }

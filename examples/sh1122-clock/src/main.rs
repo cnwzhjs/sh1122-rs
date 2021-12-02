@@ -96,6 +96,5 @@ fn main() {
         let end_x = draw_text(&face, &mut sh1122, now.to_rfc2822().as_str(), 0, 52, 0xffu8).unwrap();
         sh1122.partial_flush(0, 38, max(last_endx, end_x) + 1, 20).unwrap();
         last_endx = end_x;
-        // std::thread::sleep(std::time::Duration::from_millis(500));
     }
 }

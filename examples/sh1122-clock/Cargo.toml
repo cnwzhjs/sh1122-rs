@@ -1,13 +1,13 @@
 [package]
-name = "sh1122-test"
+name = "sh1122-clock"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sh1122 = { path = "../sh1122" }
-sh1122-rppal = { path = "../sh1122-rppal" }
+sh1122 = { path = "../../sh1122", version = "0.1" }
+sh1122-rppal = { path = "../../sh1122-rppal", version = "0.1" }
 rppal = { version = "0.13" }
 freetype-rs = { version = "0.29" }
 chrono = { version = "0.4" }
